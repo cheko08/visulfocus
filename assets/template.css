@@ -1,0 +1,80 @@
+body {
+  padding-top: 60px;
+	padding-bottom: 20px;
+
+}
+
+/*Visual Focus*/
+
+.visual{
+  color: #428bca;
+  font-weight: bold;
+  font-size: 34px;
+}
+
+.focus{
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 34px;
+}
+
+/* Jumbotron align and background color */
+
+/* Input text mods */
+.form-control {
+	width:70%;
+}
+
+.intro{
+  text-align: center;
+  margin-bottom: 20px;
+}
+.intro > p{
+  text-align: justify;
+}
+/* Carousel mods */
+
+
+
+.carousel-inner > .item > img {
+ margin: 0 auto;
+ width: 100%;
+
+}
+
+.carousel-inner {
+margin-bottom: 50px;
+}
+
+.carousel-indicators li {
+  background-color: #999;
+  background-color: rgba(70,70,70,.25);
+}
+
+
+/* End Carousel mods */
+
+.marketing {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-sm-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-sm-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.footer {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-top: 40px;
+  border-top: 2px solid #eee;
+}
