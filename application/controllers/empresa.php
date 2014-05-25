@@ -1,6 +1,6 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class Home extends CI_Controller {
+class Empresa extends CI_Controller {
 
 	function __construct() {
 
@@ -11,10 +11,9 @@ class Home extends CI_Controller {
 
 	public function index()
 	{
-		$data['title'] = 'Visual Focus';
+		$data['title'] = 'Visual Focus - Empresa';
 		$this->load->view('template/header', $data); 
-		$this->load->view('homeview', $data);
+		$this->load->view('empresaview', $data);
 		$this->load->view('template/footer'); 
 	}
 }
-

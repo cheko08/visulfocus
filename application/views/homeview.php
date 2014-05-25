@@ -57,19 +57,19 @@
         <img class="img-thumbnail" src="<?php echo base_url('assets/img/marketing1.jpg');?>" alt="Modelos">
         <h2>Modelos</h2>
         <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-        <p><a class="btn btn-primary" href="#" role="button">Ver Mas &raquo;</a></p>
+        <p><a class="btn btn-primary" href="<?php echo base_url('servicios/modelos'); ?>" role="button">Ver Mas &raquo;</a></p>
       </div>
       <div class="col-sm-4">
         <img class="img-thumbnail" src="<?php echo base_url('assets/img/marketing2.jpg');?>" alt="Edecanes">
         <h2>Edecanes</h2>
         <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-        <p><a class="btn btn-primary" href="#" role="button">Ver Mas &raquo;</a></p>
+        <p><a class="btn btn-primary" href="<?php echo base_url('servicios/edecanes'); ?>" role="button">Ver Mas &raquo;</a></p>
       </div>
       <div class="col-sm-4">
         <img class="img-thumbnail" src="<?php echo base_url('assets/img/marketing3.jpg');?>" alt="Eventos">
         <h2>Eventos</h2>
         <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-        <p><a class="btn btn-primary" href="#" role="button">Ver Mas &raquo;</a></p>
+        <p><a class="btn btn-primary" href="<?php echo base_url('servicios/eventos'); ?>" role="button">Ver Mas &raquo;</a></p>
       </div>
     </div><!--end row -->
   </div><!--end container marketing -->

@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="<?php echo base_url("assets/img/vfico.ico"); ?>" rel="shortcut icon" />
   <title><?php echo $title; ?></title>
 
   <!-- Bootstrap -->
@@ -27,27 +28,26 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#"><span class="visual">Visual</span> <span class="focus">Focus</span></a>
+          <a class="navbar-brand" href="<?php echo base_url(); ?>"><span class="visual">Visual</span> <span class="focus">Focus</span></a>
         </div>
         <div class="collapse navbar-collapse pull-right">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Inicio</a></li>
-            <li><a href="#about">Empresa</a></li>
-            <li><a href="#contact">Contacto</a></li>
+            <li><?php echo anchor('home', 'Inicio', 'title="Inicio"'); ?></li>
+            <li><?php echo anchor('empresa', 'Empresa', 'title="Empresa"'); ?></li>
+            <li><?php echo anchor('contacto', 'Contacto', 'title="Contacto"'); ?></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Servicios <b class="caret"></b></a>
               <ul class="dropdown-menu">
-                <li><a href="#">Modelos</a></li>
-                <li><a href="#">Edecanes</a></li>
-                <li><a href="#">Logistica</a></li>
-                <li><a href="#">Diseño</a></li>
+                <li><?php echo anchor('servicios/modelos', 'Modelos', 'title="Modelos"'); ?></li>
+                <li><?php echo anchor('servicios/edecanes', 'Edecanes', 'title="Edecanes"'); ?></li>
+                <li><?php echo anchor('servicios/eventos', 'Eventos', 'title="Modelos"'); ?></li>
               </ul>
             </li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Bolsa de trabajo <b class="caret"></b></a>
               <ul class="dropdown-menu">
-                <li><a href="#">Manda Tu CV</a></li>
-                <li><a href="#">Posiciones Disponibles</a></li>
+                <li><?php echo anchor('trabajo/cv', 'Envíanos tu CV', 'title="Envia tu CV"'); ?></li>
+                <li><?php echo anchor('trabajo/trabajos', 'Posiciones Disponibles', 'title="Posiciones"'); ?></li>
               </ul>
             </li>
           </ul>
