@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://cheko08.byethost7.com/';
+$config['base_url']	= 'http://localhost/visualfocus/';
 
 /*
 |--------------------------------------------------------------------------

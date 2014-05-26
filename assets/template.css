@@ -3,7 +3,10 @@ body {
 	padding-bottom: 20px;
 
 }
-
+#map_canvas {
+        width: 100%;
+        height: 400px;
+      }
 /*Visual Focus*/
 
 .visual{
@@ -22,7 +25,7 @@ body {
 
 /* Input text mods */
 .form-control {
-	width:70%;
+	width:80%;
 }
 
 .intro{

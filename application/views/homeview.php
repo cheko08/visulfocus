@@ -8,13 +8,13 @@
           <!-- Wrapper for slides -->
           <div class="carousel-inner">
             <div class="item active">
-           <?php echo img('assets/img/carousel1.jpg'); ?>"
+           <?php echo img('assets/img/carousel1.jpg'); ?>
             </div>
             <div class="item">
-               <?php echo img('assets/img/carousel2.jpg'); ?>" 
+               <?php echo img('assets/img/carousel2.jpg'); ?>
             </div>
             <div class="item">
-               <?php echo img('assets/img/carousel3.jpg'); ?>"
+               <?php echo img('assets/img/carousel3.jpg'); ?>
             </div>
           </div>
 
@@ -73,4 +73,4 @@
       </div>
     </div><!--end row -->
   </div><!--end container marketing -->
-  <div class="container">
+ 
