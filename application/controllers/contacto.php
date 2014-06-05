@@ -29,14 +29,14 @@ class Contacto extends CI_Controller {
 			$this->session->set_flashdata('result',
 				'<div class="alert alert-success alert-dismissable">
 				<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-				<strong>Su Comenatio Ha sido enviado!</strong> Pronto nos pondremos en contacto.
+				<strong>Su mensaje ha sido enviado!</strong> Pronto nos pondremos en contacto.
 			</div>');
 			redirect('contacto/index');
 		}else{
 			$this->session->set_flashdata('result',
 				'<div class="alert alert-danger alert-dismissable">
 				<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-				<strong>Algo Salio mal!</strong> Por favor intentelo mas tarde.
+				<strong>Mensaje no enviado!</strong> Por favor intentelo mas tarde.
 			</div>');
 			redirect('contacto/index');
 		}

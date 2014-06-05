@@ -17,6 +17,7 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
       <![endif]-->
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
    <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
     </head>
     <body>
@@ -39,18 +40,15 @@
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Servicios <b class="caret"></b></a>
               <ul class="dropdown-menu">
-                <li><?php echo anchor('servicios/modelos', 'Modelos', 'title="Modelos"'); ?></li>
-                <li><?php echo anchor('servicios/edecanes', 'Edecanes', 'title="Edecanes"'); ?></li>
-                <li><?php echo anchor('servicios/eventos', 'Eventos', 'title="Modelos"'); ?></li>
+                <li><?php echo anchor('servicios/marketing', 'Marketing Empresarial', 'title="Marketing"'); ?></li>
+                <li><?php echo anchor('servicios/eventos', 'Eventos-Logística', 'title="Eventos"'); ?></li>
+                <li><?php echo anchor('servicios/modelos', 'Modelos-Edecanes', 'title="Modelos"'); ?></li>
+                <li><?php echo anchor('servicios/animacion', 'Animación-Performance', 'title="Animacion"'); ?></li>
+                <li><?php echo anchor('servicios/diseno', 'Diseño', 'title="Diseño"'); ?></li>
+                <li><?php echo anchor('servicios/audio', 'Mobiliario Audio-Video', 'title="Mobiliario"'); ?></li>
               </ul>
             </li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Bolsa de trabajo <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><?php echo anchor('trabajo/cv', 'Envíanos tu CV', 'title="Envia tu CV"'); ?></li>
-                <li><?php echo anchor('trabajo/trabajos', 'Posiciones Disponibles', 'title="Posiciones"'); ?></li>
-              </ul>
-            </li>
+             <li><?php echo anchor('trabajo', 'Unete A Nuestro Equipo', 'title="Trabaja con nosotros"'); ?></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>

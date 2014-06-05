@@ -24,24 +24,27 @@
 					<input type="text" name="empresa" class="form-control" id="empresa" placeholder="Empresa">
 				</div>
 				<div class="form-group">
-					<label for="Comentarios">Comentarios</label>
-					<textarea class="form-control" name="comments" id="comments" placeholder="Comentarios" rows="4"></textarea>
+					<label for="Comentarios">Mensaje</label>
+					<textarea class="form-control" name="comments" id="comments" placeholder="Mensaje" rows="4"></textarea>
 				</div>
 				<button type="submit" class="btn btn-primary">Enviar</button>
 				<?php echo form_close();?>
 			</div>
 			<div class="col-sm-4">
+			<br>
 				<img class="img-thumbnail" src="<?php echo base_url('assets/img/contacto.jpg');?>" alt="Edecanes">
 				<address>
-					<strong>Visual Focus Merida</strong><br>
-					Calle 32 por 17 y 19 Montecarlo<br>
-					Merida Yucatan, Mexico CP 97130<br>
-					<abbr title="Telefono">T:</abbr> (123) 456-7890
+					<strong><a href="#map_canvas">Visual Focus Merida</a></strong><br>
+					Calle 19 # 266 x 30 y 32 <br>
+					Residencial Montecarlo  <br>
+					 C.P. 97130  Mérida, Yucatán<br>
+					<abbr title="Telefono">Tel:</abbr>(999) 3177553<br>
+					<abbr title="Celular">Cel:</abbr>(999) 1980243<br>
 				</address>
 
 				<address>
 					<strong>Correo Electrónico</strong><br>
-					<a href="mailto:#">contacto@visualfocusmx.com</a>
+					<a href="#">contacto@visualfocusmx.com</a>
 				</address>
 			</div>
 		</div>
@@ -56,9 +59,9 @@
 </div>
 <script>
 	function initialize() {
-		var position = new google.maps.LatLng(21.023073, -89.621845);
+		var position = new google.maps.LatLng(21.029246, -89.580998);
 		var myOptions = {
-			zoom: 18,
+			zoom: 16,
 			center: position,
 			mapTypeId: google.maps.MapTypeId.ROADMAP
 		};
@@ -73,7 +76,7 @@
 			title:"Oficinas Visual Focus Merida"
 		});  
 
-		var contentString = '<strong>Visual Focus Merida</strong>';
+		var contentString = '<strong>Visual Focus Merida</strong><br>Calle 19 # 266 x 30 y 32 <br>Residencial Montecarlo<br>C.P. 97130  Mérida, Yucatán<br>';
 		var infowindow = new google.maps.InfoWindow({
 			content: contentString
 		});

@@ -1,17 +1,21 @@
-body {
-  padding-top: 60px;
-	padding-bottom: 20px;
-
+@font-face
+{
+font-family: myFont;
+src: url(../assets/Hallosans.otf);
 }
 
-.logo {
-   text-align: center;
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+/*   background-image: url("../assets/img/carousel1.jpg");
+background-repeat: repeat-y;
+background-repeat: repeat-x; */
 }
 
 #map_canvas {
-        width: 100%;
-        height: 400px;
-      }
+  width: 100%;
+  height: 400px;
+}
 /*Visual Focus*/
 
 .visual{
@@ -26,6 +30,8 @@ body {
   font-size: 34px;
 }
 
+
+
 /* Jumbotron align and background color */
 
 /* Input text mods */
@@ -33,13 +39,6 @@ body {
 	width:80%;
 }
 
-.intro{
-  text-align: center;
-  margin-bottom: 20px;
-}
-.intro > p{
-  text-align: justify;
-}
 /* Carousel mods */
 
 
@@ -47,11 +46,17 @@ body {
 .carousel-inner > .item > img {
  margin: 0 auto;
  width: 100%;
-
+ min-height: 400px;
 }
 
 .carousel-inner {
-margin-bottom: 50px;
+  margin-bottom: 50px;
+  /*max-height: 500px;*/
+}
+.carousel-caption{
+  opacity:0.8;
+  background-color: #000;
+  filter:alpha(opacity=80); /* For IE8 and earlier */
 }
 
 .carousel-indicators li {
@@ -65,19 +70,27 @@ margin-bottom: 50px;
 .marketing {
   padding-right: 15px;
   padding-left: 15px;
+
 }
+
 
 /* Center align the text within the three columns below the carousel */
 .marketing .col-sm-4 {
   margin-bottom: 20px;
-  text-align: center;
+  text-align: justify;
+  margin: 0 auto;
+}
+.marketing .col-sm-3 {
+  margin-bottom: 20px;
+  text-align: left;
+  margin: 0 auto;
 }
 .marketing h2 {
-  font-weight: normal;
+  font-weight: bold;
+  font-size: 16px;
 }
 .marketing .col-sm-4 p {
   margin-right: 10px;
-  margin-left: 10px;
 }
 
 .footer {
@@ -87,5 +100,4 @@ margin-bottom: 50px;
   margin-bottom: 0;
   margin-top: 40px;
   border-top: 4px solid #eee;
-  background-color: #FFF;
 }

@@ -9,19 +9,12 @@ class Trabajo extends CI_Controller {
 		$this->load->helper('html');
 	}
 
-	public function cv()
-	{
-		$data['title'] = 'Visual Focus - Trabaja con nostros';
-		$this->load->view('template/header', $data); 
-		$this->load->view('cvview', $data);
-		$this->load->view('template/footer'); 
-	}
 
-	public function trabajos()
+	public function index()
 	{
 		$data['title'] = 'Visual Focus - Trabaja con nostros';
 		$this->load->view('template/header', $data); 
-		$this->load->view('posicionesview', $data);
+		$this->load->view('trabajoview', $data);
 		$this->load->view('template/footer'); 
 	}
 }
