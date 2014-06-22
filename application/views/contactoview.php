@@ -7,9 +7,9 @@
 					echo $this->session->flashdata('result'); 
 				endif;
 				?>
-				<h1>Contactanos</h1>
+				<h1>Contáctanos</h1>
 
-				<p>Mandanos tus comentarios y nosotros nos pondremos en contacto. </p>
+				<p>Dejanos tu mensaje y nosotros nos pondremos en contacto. </p>
 				<?php echo form_open('contacto/comments');?>
 				<div class="form-group">
 					<label for="email">Correo Electrónico</label>
@@ -59,7 +59,7 @@
 </div>
 <script>
 	function initialize() {
-		var position = new google.maps.LatLng(21.029246, -89.580998);
+		var position = new google.maps.LatLng(21.028835, -89.580169);
 		var myOptions = {
 			zoom: 16,
 			center: position,

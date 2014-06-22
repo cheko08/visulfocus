@@ -28,8 +28,24 @@ class Servicios extends CI_Controller {
 	public function modelos()
 	{
 		$data['title'] = 'Visual Focus - Modelos-Edecanes';
+		$this->load->model('Model_Servicios');
+		$query=$this->Model_Servicios->getModelos();
+		$data['modelos'] = $query;
+
 		$this->load->view('template/header', $data); 
 		$this->load->view('modelosview', $data);
+		$this->load->view('template/footer'); 
+	}
+
+	public function modelo($id)
+	{
+		$data['title'] = 'Visual Focus - Modelos-Edecanes';
+		$this->load->model('Model_Servicios');
+		$query=$this->Model_Servicios->modelo($id);
+		$data['modelo'] = $query;
+
+		$this->load->view('template/header', $data); 
+		$this->load->view('modeloview', $data);
 		$this->load->view('template/footer'); 
 	}
 

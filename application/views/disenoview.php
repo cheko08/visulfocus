@@ -1,7 +1,7 @@
 <div class="container">
 	<div class="row">
 		<div class="col-sm-4">
-			<h1>Diseño</h1>
+			<h2>Diseño</h2>
 				<ul>
 					<li>Diseño Imagen Corporativa</li>
 					<li>Calcas en Vinil</li>
@@ -22,7 +22,39 @@
 
 		</div>
 		<div class="col-sm-8">
-			<img class="img-thumbnail sections" src="<?php echo base_url('assets/img/models.jpg');?>" alt="Edecanes">
+			 <!--carousel -->
+         <div id="carousel" class="carousel slide vertical" data-ride="carousel">
+
+          <!-- Wrapper for slides -->
+          <div class="servicios carousel-inner">
+            <div class="item active">
+             <?php echo img('assets/img/diseno1.jpg'); ?>
+             
+           </div>
+           <div class="item">
+             <?php echo img('assets/img/diseno2.jpg'); ?>
+
+           </div>
+           <div class="item">
+             <?php echo img('assets/img/diseno3.jpg'); ?>
+
+           </div>
+         </div>
+
+         <!-- Controls -->
+         <a class="carousel-control left" href="#carousel" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="carousel-control right" href="#carousel" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
+      </div><!--end carousel -->
 		</div>
 	</div>
 </div>
