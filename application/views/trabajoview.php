@@ -100,7 +100,7 @@
 			</div>
 			<div class="form-group">
 				<label for="foto">Foto de cuerpo completo</label>
-				<input type="file" id="foto" name="userfile">
+				<input type="file" id="foto" name="userfile" size="20">
 				<p class="help-block">Foto de cuerpo completo</p>
 			</div>
 			<button type="submit" class="btn btn-primary">Enviar Solicitud</button>

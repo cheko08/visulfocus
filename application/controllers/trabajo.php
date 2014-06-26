@@ -23,7 +23,31 @@ class Trabajo extends CI_Controller {
 	public function solicitud()
 	{
 		$this->load->model('Model_Solicitudes');
-		if($this->Model_Solicitudes->saveSolicitud())
+
+		$config['upload_path'] ='./uploads/';
+		$config['allowed_types'] = 'gif|jpg|png|jpeg';
+		$config['max_size']	= '1000000';
+		$config['max_width']  = '1024';
+		$config['max_height']  = '1024';
+
+		$this->load->library('upload', $config);
+
+		/*if ( ! $this->upload->do_upload())
+		{	
+			$error = array('error' => $this->upload->display_errors());
+			print_r($error);
+			echo $config['upload_path'];
+		}
+		else
+		{
+			echo 'Funciono';
+		}*/
+
+		$this->upload->do_upload();
+		$upload_data = $this->upload->data();
+		$foto=$upload_data['file_name'];
+		
+		if($this->Model_Solicitudes->saveSolicitud($foto))
 		{
 			$this->session->set_flashdata('result',
 				'<div class="alert alert-success alert-dismissable">

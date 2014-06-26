@@ -15,8 +15,8 @@
 <div class="container-fluid">
   <h2>Servicios</h2>
   <p class="lead">Nuestro amplio catálogo de servicios se  divide en seis secciones:
-   Marketing Empresarial, Eventos- logística, Modelos- edecanes, Animación -Performance,
-   Diseño y Mobiliario-Audio-video</p>      
+   1) Marketing Empresarial 2) Eventos- logística 3) Modelos- edecanes 4) Animación -Performance
+   5) Diseño  6) Mobiliario-Audio-video</p>      
  </div>
  <div class="container-fluid">
 
@@ -37,7 +37,15 @@
     </div>
     <div class="col-sm-3 intro">
         <h2><span class="glyphicon glyphicon-star"></span> Valores</h2>
-        <p>Confianza, Responsabilidad, Honestidad, Compromiso, Justicia, Ética, Profesionalismo </p>
+        <ul>
+          <li>Confianza</li>
+          <li>Responsabilidad</li>
+          <li>Honestidad</li>
+          <li>Compromiso</li>
+          <li>Justicia</li>
+          <li>Ética</li>
+          <li>Profesionalismo</li>
+        </ul>
     </div>
     <div class="col-sm-3 intro">
         <h2><span class="glyphicon glyphicon-star"></span> Compromiso</h2>

@@ -2,7 +2,7 @@
      <div class="row">
        <div class="col-sm-12">
          <!--carousel -->
-         <div id="carousel" class="carousel slide vertical" data-ride="carousel">
+         <div id="carousel" class="carousel slide vertical home" data-ride="carousel">
 
           <!-- Wrapper for slides -->
           <div class="carousel-inner">

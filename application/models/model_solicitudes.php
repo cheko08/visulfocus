@@ -16,7 +16,7 @@ class Model_Solicitudes extends CI_Model
  * Guarda solicitudes de trabajo en la BD
  * @return Boolean regresa True si guarda o false si hubo un error
  */
-	public function saveSolicitud()
+	public function saveSolicitud($foto)
 	{
 		$name = $this->input->post('name',TRUE);
 		$dir = $this->input->post('dir', TRUE);
@@ -47,18 +47,7 @@ class Model_Solicitudes extends CI_Model
 		$eventos = $this->input->post('eventos', TRUE);
 
 
-		$config['upload_path'] =  base_url('/uploads/');
-		$config['allowed_types'] = 'gif|jpeg|png';
-		$config['max_size']	= '1000000';
-		$config['max_width']  = '1024';
-		$config['max_height']  = '1024';
-
-		$this->load->library('upload', $config);
-
-		 $this->upload->do_upload();
 		
-			$upload_data = $this->upload->data();
-			$foto=$upload_data['file_name'];
 			$data = array(
 				'nombre' => $name,
 				'dir' => $dir,

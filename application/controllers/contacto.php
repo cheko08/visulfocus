@@ -31,6 +31,15 @@ class Contacto extends CI_Controller {
 				<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
 				<strong>Su mensaje ha sido enviado!</strong> Pronto nos pondremos en contacto.
 			</div>');
+			
+			$comments = $this->input->post('comments', TRUE);
+			$mesage=$comments;
+			$cabeceras = 'From: webmaster@example.com' . "\r\n" .
+			'Reply-To: webmaster@example.com' . "\r\n" .
+			'X-Mailer: PHP/' . phpversion();
+			mail('robertopachecorio@gmail.com','Mensaje de contacto',$mesage,$cabeceras);
+			
+			
 			redirect('contacto/index');
 		}else{
 			$this->session->set_flashdata('result',

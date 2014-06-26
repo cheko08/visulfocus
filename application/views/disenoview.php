@@ -39,6 +39,14 @@
              <?php echo img('assets/img/diseno3.jpg'); ?>
 
            </div>
+           <div class="item">
+             <?php echo img('assets/img/diseno11.jpg'); ?>
+
+           </div>
+           <div class="item">
+             <?php echo img('assets/img/diseno22.jpg'); ?>
+
+           </div>
          </div>
 
          <!-- Controls -->
@@ -53,6 +61,10 @@
           <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
           <li data-target="#carousel-example-generic" data-slide-to="1"></li>
           <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+
+<li data-target="#carousel-example-generic" data-slide-to="4"></li>
+
         </ol>
       </div><!--end carousel -->
 		</div>

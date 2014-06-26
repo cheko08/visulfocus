@@ -1,7 +1,7 @@
 <div class="container">
 	<div class="row">
 		<div class="col-sm-4">
-			<h2>Mobiliario Audio y Video</h2>
+			<h2>Mobiliario, Audio y Video</h2>
 				<ul>
 					<li>Sillas y  mesas</li>
 					<li>Salas lounge</li>
@@ -34,6 +34,22 @@
              <?php echo img('assets/img/audio3.jpg'); ?>
 
            </div>
+           <div class="item">
+             <?php echo img('assets/img/audio11.jpg'); ?>
+
+           </div>
+           <div class="item">
+             <?php echo img('assets/img/audio22.jpg'); ?>
+
+           </div>
+           <div class="item">
+             <?php echo img('assets/img/audio33.jpg'); ?>
+
+           </div>
+           <div class="item">
+             <?php echo img('assets/img/audio44.jpg'); ?>
+
+           </div>
          </div>
 
          <!-- Controls -->
@@ -48,6 +64,10 @@
           <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
           <li data-target="#carousel-example-generic" data-slide-to="1"></li>
           <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="5"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="6"></li>
         </ol>
       </div><!--end carousel -->
 		</div>

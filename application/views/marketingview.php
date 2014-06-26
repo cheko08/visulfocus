@@ -25,15 +25,19 @@
           <!-- Wrapper for slides -->
           <div class="carousel-inner">
             <div class="item active">
-             <?php echo img('assets/img/carousel1.jpg'); ?>
+             <?php echo img('assets/img/carouselm1.jpg'); ?>
              
            </div>
            <div class="item">
-             <?php echo img('assets/img/carousel2.jpg'); ?>
+             <?php echo img('assets/img/carousel1.jpg'); ?>
 
            </div>
            <div class="item">
-             <?php echo img('assets/img/carousel3.jpg'); ?>
+             <?php echo img('assets/img/carouselm3.jpg'); ?>
+
+           </div>
+           <div class="item">
+             <?php echo img('assets/img/marketing23.jpg'); ?>
 
            </div>
          </div>
@@ -50,6 +54,7 @@
           <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
           <li data-target="#carousel-example-generic" data-slide-to="1"></li>
           <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="3"></li>
         </ol>
       </div><!--end carousel -->
 		</div>

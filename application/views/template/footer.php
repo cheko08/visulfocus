@@ -1,4 +1,5 @@
 <!-- Site footer -->
+ <div id="footer">
  <div class="container-fluid footer">
    <div class="row">
    	<div class="col-xs-8 col-sm-10">
@@ -12,6 +13,7 @@
    	</div>
    </div>
    
+</div>
 </div>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="<?php echo base_url("assets/bootstrap/js/bootstrap.min.js");?>"></script>
