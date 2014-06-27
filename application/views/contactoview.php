@@ -12,11 +12,12 @@
 				<p>Dejanos tu mensaje y nosotros nos pondremos en contacto. </p>
 				<?php echo form_open('contacto/comments');?>
 				<div class="form-group">
-					<label for="email">Correo Electrónico</label>
+				<?php echo form_error('email'); ?>
+					<label for="email">*Correo Electrónico</label>
 					<input type="email" name="email" class="form-control" id="email" placeholder="Correo Electrónico">
 				</div>
 				<div class="form-group">
-					<label for="nombre">Nombre</label>
+					<label for="nombre">*Nombre</label>
 					<input type="text" name="nombre" class="form-control" id="nombre" placeholder="Nombre">
 				</div>
 				<div class="form-group">
@@ -24,7 +25,7 @@
 					<input type="text" name="empresa" class="form-control" id="empresa" placeholder="Empresa">
 				</div>
 				<div class="form-group">
-					<label for="Comentarios">Mensaje</label>
+					<label for="Comentarios">*Mensaje</label>
 					<textarea class="form-control" name="comments" id="comments" placeholder="Mensaje" rows="4"></textarea>
 				</div>
 				<button type="submit" class="btn btn-primary">Enviar</button>

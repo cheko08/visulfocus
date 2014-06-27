@@ -112,11 +112,11 @@
 	"buffers":
 	[
 		{
-			"file": "application/config/config.php",
+			"file": "application/views/contactoview.php",
 			"settings":
 			{
-				"buffer_size": 12905,
-				"line_ending": "Unix"
+				"buffer_size": 2920,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -240,8 +240,12 @@
 	},
 	"file_history":
 	[
-		"/C/xampp/htdocs/websites/visualfocus/application/views/homeview.php",
 		"/C/xampp/htdocs/websites/visualfocus/assets/template.css",
+		"/C/xampp/htdocs/websites/visualfocus/application/controllers/contacto.php",
+		"/C/xampp/htdocs/websites/visualfocus/.htaccess",
+		"/C/xampp/htdocs/websites/visualfocus/application/config/database.php",
+		"/C/xampp/htdocs/websites/visualfocus/application/config/config.php",
+		"/C/xampp/htdocs/websites/visualfocus/application/views/homeview.php",
 		"/C/xampp/htdocs/websites/visualfocus/application/views/template/footer.php",
 		"/C/Users/Roberto/AppData/Roaming/Sublime Text 3/Packages/Emmet/Emmet.sublime-settings",
 		"/C/Users/Roberto/Desktop/index.html",
@@ -263,7 +267,6 @@
 		"/C/xampp/htdocs/websites/overtime/app/views/emails/auth/reminder.blade.php",
 		"/C/xampp/htdocs/websites/overtime/app/views/hello.php",
 		"/C/xampp/htdocs/websites/overtime/bootstrap/autoload.php",
-		"/C/xampp/htdocs/websites/visualfocus/application/config/database.php",
 		"/C/wamp/www/visualfocus/application/controllers/contacto.php",
 		"/C/wamp/www/visualfocus/application/models/model_contacto.php",
 		"/C/wamp/bin/php/php5.5.12/php.ini",
@@ -369,24 +372,25 @@
 			[
 				{
 					"buffer": 0,
-					"file": "application/config/config.php",
+					"file": "application/views/contactoview.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 12905,
+						"buffer_size": 2920,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								533,
-								479
+								1021,
+								1021
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.tmLanguage"
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,

@@ -24,6 +24,23 @@ class Contacto extends CI_Controller {
 	public function comments()
 	{
 		$this->load->model('Model_contacto');
+		$this->load->library('form_validation');
+
+		$this->form_validation->set_rules('nombre', 'Nombre', 'required');
+		$this->form_validation->set_rules('email', 'Email', 'required');
+		$this->form_validation->set_rules('comments', 'Mensaje', 'required');
+
+
+		if ($this->form_validation->run() == FALSE)
+		{
+			$this->session->set_flashdata('result',
+				'<div class="alert alert-danger alert-dismissable">
+				<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+				<strong>Mensaje no enviado!</strong> Algunos campos son requeridos para enviar el mensaje.
+			</div>');
+			redirect('contacto/index');
+		}
+
 		if($this->Model_contacto->saveComments())
 		{
 			$this->session->set_flashdata('result',
@@ -33,12 +50,15 @@ class Contacto extends CI_Controller {
 			</div>');
 			
 			$comments = $this->input->post('comments', TRUE);
-			$mesage=$comments;
-			$cabeceras = 'From: webmaster@example.com' . "\r\n" .
-			'Reply-To: webmaster@example.com' . "\r\n" .
-			'X-Mailer: PHP/' . phpversion();
-			mail('robertopachecorio@gmail.com','Mensaje de contacto',$mesage,$cabeceras);
-			
+			$nombre = $this->input->post('nombre', TRUE);
+			$empresa = $this->input->post('empresa', TRUE);
+			$to = 'contacto@visualfocusmx.com';
+			$message=$comments;
+			$message = wordwrap($message, 70);
+			$email = $this->input->post('email', TRUE);
+			$subject='Mensaje de contacto '.$empresa;
+			$headers="From: $nombre <$email>\r\n";
+			mail($to,$subject,$message,$headers);
 			
 			redirect('contacto/index');
 		}else{

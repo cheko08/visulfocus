@@ -63,7 +63,7 @@ body {
 }
 
 .carousel-indicators li {
-  background-color: #999;
+  background-color: #666;
   background-color: rgba(70,70,70,.25);
 }
 
@@ -129,7 +129,7 @@ body {
 }
 
 .modelo{
-  max-width: 500px;
+  max-width: 100%;
   display: inline;
 }
 
