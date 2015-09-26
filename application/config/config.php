@@ -14,9 +14,9 @@
 | path to your installation.
 |
 */
-/*$config['base_url']	= 'http://localhost/visualfocus/';*/
-$config['base_url']	= 'http://visualfocusmx.com/';
-
+$config['base_url']	= 'http://dev.visualfocus.com';
+/*$config['base_url']	= 'http://visualfocusmx.com/';
+*/
 
 /*
 |--------------------------------------------------------------------------

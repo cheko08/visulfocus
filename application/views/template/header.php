@@ -36,16 +36,17 @@
           <ul class="nav navbar-nav">
             <li><?php echo anchor('home', 'Inicio', 'title="Inicio"'); ?></li>
             <li><?php echo anchor('empresa', 'Empresa', 'title="Empresa"'); ?></li>
+            <li><?php echo anchor('experiencia', 'Experiencia', 'title="Experiencia"'); ?></li>
             <li><?php echo anchor('contacto', 'Contacto', 'title="Contacto"'); ?></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Servicios <b class="caret"></b></a>
               <ul class="dropdown-menu">
+               <li><?php echo anchor('servicios/modelos', 'Modelos-Edecanes', 'title="Modelos"'); ?></li>
+               <li><?php echo anchor('servicios/eventos', 'Logística de Eventos Empresariales', 'title="Eventos"'); ?></li>
                 <li><?php echo anchor('servicios/marketing', 'Marketing Empresarial', 'title="Marketing"'); ?></li>
-                <li><?php echo anchor('servicios/eventos', 'Eventos-Logística', 'title="Eventos"'); ?></li>
-                <li><?php echo anchor('servicios/modelos', 'Modelos-Edecanes', 'title="Modelos"'); ?></li>
-                <li><?php echo anchor('servicios/animacion', 'Animación-Performance', 'title="Animacion"'); ?></li>
-                <li><?php echo anchor('servicios/diseno', 'Diseño', 'title="Diseño"'); ?></li>
-                <li><?php echo anchor('servicios/audio', 'Mobiliario Audio-Video', 'title="Mobiliario"'); ?></li>
+                
+               
+                <li><?php echo anchor('servicios/diseno', 'Diseño Empresarial', 'title="Diseño"'); ?></li>
               </ul>
             </li>
              <li><?php echo anchor('trabajo', 'Unete A Nuestro Equipo', 'title="Trabaja con nosotros"'); ?></li>

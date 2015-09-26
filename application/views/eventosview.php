@@ -16,6 +16,17 @@
 					<li>Fiestas y espectáculos </li>
 					<li>Inauguraciones y Aniversarios</li>
 					<li>Eventos deportivos</li>
+          <li>Sillas y  mesas</li>
+          <li>Salas lounge</li>
+          <li>Mamparas</li>
+          <li>Stands</li>
+          <li>Tarimas</li>
+          <li>Vestidores</li>
+          <li>Equipo de audio y video</li>
+          <li>Iluminación</li>
+          <li>Vallas móviles</li>
+          <li>Escenografía y ambientación</li>
+          <li>Producción de Audio y Video</li>
 				</ul>
 
 		</div>
@@ -49,6 +60,34 @@
              <?php echo img('assets/img/eventos6.jpg'); ?>
 
            </div>
+           <div class="item">
+             <?php echo img('assets/img/audio1.jpg'); ?>
+             
+           </div>
+           <div class="item">
+             <?php echo img('assets/img/audio2.jpg'); ?>
+
+           </div>
+           <div class="item">
+             <?php echo img('assets/img/audio3.jpg'); ?>
+
+           </div>
+           <div class="item">
+             <?php echo img('assets/img/audio11.jpg'); ?>
+
+           </div>
+           <div class="item">
+             <?php echo img('assets/img/audio22.jpg'); ?>
+
+           </div>
+           <div class="item">
+             <?php echo img('assets/img/audio33.jpg'); ?>
+
+           </div>
+           <div class="item">
+             <?php echo img('assets/img/audio44.jpg'); ?>
+
+           </div>
 
          </div>
 
@@ -67,6 +106,13 @@
           <li data-target="#carousel-example-generic" data-slide-to="3"></li>
           <li data-target="#carousel-example-generic" data-slide-to="4"></li>
           <li data-target="#carousel-example-generic" data-slide-to="5"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="6"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="7"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="8"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="9"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="10"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="11"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="12"></li>
        
         </ol>
       </div><!--end carousel -->

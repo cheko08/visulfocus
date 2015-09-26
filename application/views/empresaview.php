@@ -2,7 +2,7 @@
 	<div class="container-fluid">
    <div class="row">
      <div class="col-sm-6">
-      <h1>¿Quiénes somos?</h1>
+      <h1>Nuestra Historia</h1>
       <p>Visual Focus es una empresa multifuncional  fundada en el año 2013 con sede en la ciudad de Mérida, Yuc.</p> 
       <p>Visual Focus nace de la inquietud de crear nuevos conceptos y estrategias en  marketing que estén a la vanguardia de las exigencias actuales de nuestros clientes y del mercado que se pretenda. </p>
       <p><strong>Nuesto propósito:</strong> Somos una agencia Vanguardista que tiene como principal propósito ofrecer ideas innovadoras en marketing y  brindar servicios integrales  que proyecten la marca e imagen de nuestros clientes de la manera óptima para un crecimiento continúo  en el mercado. </p>	
@@ -12,15 +12,7 @@
     </div>
   </div>
 </div>
-<div class="container-fluid">
-  <h2>Servicios</h2>
-  <p class="lead">Nuestro amplio catálogo de servicios se  divide en seis secciones:
-   1) Marketing Empresarial 2) Eventos- logística 3) Modelos- edecanes 4) Animación -Performance
-   5) Diseño  6) Mobiliario-Audio-video</p>      
- </div>
- <div class="container-fluid">
 
- </div>
 </div>
 <div class="container marketing">
   <div class="row">
@@ -55,3 +47,10 @@
      </div>
    </div><!--end row -->
  </div><!--end container -->
+
+ <div class="container">
+  <h2>Servicios</h2>
+  <p class="lead">
+     Modelos - Edecanes | Logística de enventos empresariales | Marketing Empresarial |
+    Diseño Empresarial</p>      
+ </div>

@@ -48,8 +48,13 @@ body {
 .carousel-inner > .item > img {
  margin: 0 auto;
  min-width: 100%;
-  height: 500px;
+  height: 580px;
 }
+
+.home{
+  height: 300px;
+}
+
 
 
 .carousel-inner {
@@ -85,6 +90,7 @@ body {
 
 
 .marketing {
+  padding-top: 10px;
   padding-right: 15px;
   padding-left: 15px;
 
@@ -149,4 +155,18 @@ body {
 .name:hover {
     opacity: 1.0;
     filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+.inicio{
+  width: 100%;
+  max-height: 600px;
+}
+
+.pagina_inicio{
+  padding: 0;
+  margin: 0;
+}
+
+.thumbnail{
+max-width: 150px;
 }

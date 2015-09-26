@@ -48,7 +48,7 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-/*$db['default']['hostname'] = 'localhost';
+$db['default']['hostname'] = 'localhost';
 $db['default']['username'] = 'root';
 $db['default']['password'] = '';
 $db['default']['database'] = 'visualfocus';
@@ -62,9 +62,9 @@ $db['default']['char_set'] = 'utf8';
 $db['default']['dbcollat'] = 'utf8_general_ci';
 $db['default']['swap_pre'] = '';
 $db['default']['autoinit'] = TRUE;
-$db['default']['stricton'] = FALSE;*/
+$db['default']['stricton'] = FALSE;
 
-$db['default']['hostname'] = 'localhost';
+/*$db['default']['hostname'] = 'localhost';
 $db['default']['username'] = 'rpacheco';
 $db['default']['password'] = 'topokie1';
 $db['default']['database'] = 'visual_focus';
@@ -79,6 +79,6 @@ $db['default']['dbcollat'] = 'utf8_general_ci';
 $db['default']['swap_pre'] = '';
 $db['default']['autoinit'] = TRUE;
 $db['default']['stricton'] = FALSE;
-
+*/
 /* End of file database.php */
 /* Location: ./application/config/database.php */
