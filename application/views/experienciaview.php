@@ -1,6 +1,6 @@
 <div class="container-fluid">
 	<div class="row">
-		<div class="col-xs-2">
+		<div class="col-sm-3">
 			<?php 
 			$image_properties = array(
 				'src' => 'assets/img/logos/soluciones_nauticas.jpg',
@@ -40,9 +40,8 @@
 				);
 				echo img($image_properties); ?>
 
-			</div>
 
-			<div class="col-xs-2">
+		
 			<?php 
 			$image_properties = array(
 				'src' => 'assets/img/logos/campion.jpg',
@@ -58,17 +57,11 @@
 				);
 				echo img($image_properties); ?>
 
-				<?php 
-			$image_properties = array(
-				'src' => 'assets/img/logos/mercedes.jpg',
-				'class' => 'img-responsive thumbnail',
-				
-				);
-				echo img($image_properties); ?>
+		
 
 		</div>
 
-			<div class="col-xs-2">
+			<div class="col-sm-3">
 						<?php 
 			$image_properties = array(
 				'src' => 'assets/img/logos/ph.jpg',
@@ -109,16 +102,24 @@
 				);
 				echo img($image_properties); ?>
 
+            <?php 
+      $image_properties = array(
+        'src' => 'assets/img/logos/mercedes.jpg',
+        'class' => 'img-responsive thumbnail',
+        
+        );
+        echo img($image_properties); ?>
+
 		</div>
 
-		<div class="col-xs-6">
+		<div class="col-sm-6">
 			 <!--carousel -->
          <div id="carousel" class="carousel slide vertical" data-ride="carousel">
 
           <!-- Wrapper for slides -->
           <div class="carousel-inner">
             <div class="item active">
-             <?php echo img('assets/img/experiencia/IMG_0074.jpg'); ?>
+      <img class="img-responsive" src="<?php echo base_url('assets/img/experiencia/IMG_0074.jpg');?>" alt="modelos">
              
            </div>
            <div class="item">
@@ -179,12 +180,7 @@
            </div>
              <div class="item">
              <?php echo img('assets/img/experiencia/IMG_0324.jpg'); ?>
-
-           </div>
-             <div class="item">
-             <?php echo img('assets/img/experiencia/IMG_0340.jpg'); ?>
-
-           </div>
+          </div>
              <div class="item">
              <?php echo img('assets/img/experiencia/IMG_0341.jpg'); ?>
 
@@ -197,14 +193,8 @@
              <?php echo img('assets/img/experiencia/IMG_20150501_125619889.jpg'); ?>
 
            </div>
-           <div class="item">
-             <?php echo img('assets/img/experiencia/IMG_20150703_093406472.jpg'); ?>
-
-           </div>
-           <div class="item">
-             <?php echo img('assets/img/experiencia/IMG_20150703_093529528.jpg'); ?>
-
-           </div>
+          
+        
            <div class="item">
              <?php echo img('assets/img/experiencia/IMG-20141206-WA0007.jpg'); ?>
 
@@ -213,10 +203,7 @@
              <?php echo img('assets/img/experiencia/mercedez2.jpg'); ?>
 
            </div>
-           <div class="item">
-             <?php echo img('assets/img/experiencia/foto.jpg'); ?>
-
-           </div>
+     
 
          </div>
 
@@ -250,10 +237,9 @@
           <li data-target="#carousel-example-generic" data-slide-to="18"></li>
           <li data-target="#carousel-example-generic" data-slide-to="19"></li>
           <li data-target="#carousel-example-generic" data-slide-to="20"></li>
-          <li data-target="#carousel-example-generic" data-slide-to="21"></li>
-          <li data-target="#carousel-example-generic" data-slide-to="22"></li>
-          <li data-target="#carousel-example-generic" data-slide-to="23"></li>
-          <li data-target="#carousel-example-generic" data-slide-to="24"></li>
+
+
+
        
         </ol>
       </div><!--end carousel -->
